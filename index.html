@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <fieldset>
+        <legend>Students Information</legend>
+        <table id="tblinfo">
+            <tr>
+                <td width="45%">
+                    <label for="Fname">First Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="Fname">
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <label for="Mname">Middle Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="Mname">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="Lname">Last Name:</label>
+                </td>
+                <td>
+                    <input type="text" name="Lname">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Grades</legend>
+        <table id="grades">
+            <tr>
+                <td width="45%">
+                    <label for="Webtech">Web Tech:</label>
+                </td>
+                <td>
+                    <input type="number" name="Webtech">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Oop">OOP:</label>
+                </td>
+                <td>
+                    <input type="number" name="Oop">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Networking2">Networking 2:</label>
+                </td>
+                <td>
+                    <input type="number" name="Networking2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Hci1">HCI 1:</label>
+                </td>
+                <td>
+                    <input type="number" name="Hci1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Hci2">HCI 2:</label>
+                </td>
+                <td>
+                    <input type="number" name="Hci2">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <table>
+        <button id="btnsave">Save</button>
+        <button id="btnClear">Clear</button>
+    </table>
+
+    <fieldset>
+        <legend>Records</legend>
+        <p id="status" style=" color: red; font-size: 12px;"></p>
+        <table id="tblrecords" style="margin: auto; border-collapse: collapse;"></table>
+        <button id="btnclear" >Clear Records</button>
+    </fieldset>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
